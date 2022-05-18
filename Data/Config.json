@@ -1,0 +1,30 @@
+{
+	"Environment": "",
+	"logF_BusinessProcessName": "",
+	"OrchestratorQueueName" : "",
+	
+	"Constants" : {
+		"MaxRetryNumber": 0,
+		"TimeoutShort": 5000,
+		"TimeoutMedium": 30000,
+		"TimeoutLong": 120000,
+		"DelayShort": 5000,
+		"DelayMedium": 15000,
+		"DelayLong": 60000,
+		"AccuracyLow": 0.6,
+		"AccuracyMedium": 0.8,
+		"AccuracyHigh": 0.9,
+		"ExScreenshotsFolderPath": "Exceptions_Screenshots",
+		"LogMessage_GetTransactionData": "Processing Transaction Number: ",
+		"LogMessage_GetTransactionDataError": "Error getting transaction data for Transaction Number: ",
+		"LogMessage_Success": "Transaction Successful.",
+		"LogMessage_BusinessRuleException": "Business rule exception.",
+		"LogMessage_ApplicationException": "System exception.",
+		},
+	
+	"Assets": {
+	},
+	
+	"TargetApplications": {
+	}
+}
